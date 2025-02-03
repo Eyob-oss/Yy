@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #222;
+    color: gold;
+    text-align: center;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background: black;
+    padding: 15px;
+    color: gold;
+    align-items: center;
+}
+
+.icon-btn {
+    background: none;
+    border: none;
+    color: gold;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#search-bar {
+    display: none;
+    padding: 10px;
+}
+
+#search {
+    width: 80%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.logo img {
+    width: 120px;
+    margin: 20px 0;
+}
+
+.categories button {
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+    padding: 15px;
+    background: black;
+    color: gold;
+    border: 1px solid gold;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.categories button:hover {
+    background: gold;
+    color: black;
+}
+
+.hidden {
+    display: none;
+}
+
+.back-btn {
+    background: gold;
+    color: black;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background: black;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid gold;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+li:hover {
+    background: gold;
+    color: black;
+}
